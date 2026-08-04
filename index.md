@@ -45,4 +45,4 @@ If this policy changes, the new version will be posted here with an updated date
 
 If you have any question about this policy or the app, contact:
 
-[your contact email]
+renkakpo@gmail.com
