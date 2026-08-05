@@ -1,6 +1,6 @@
 # Privacy Policy for Valto
 
-Last updated: [fill in the publication date]
+Last updated: 08/05/26
 
 Valto is a personal finance app that keeps your money data on your phone. This page explains, in plain terms, what the app does and does not do with your information.
 
