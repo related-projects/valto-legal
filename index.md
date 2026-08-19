@@ -14,7 +14,14 @@ If you uninstall the app or reset its data, that data is gone. No copy is kept a
 
 Valto makes two kinds of network request. Neither one includes your financial data.
 
-**Crash reports.** If the app crashes, it sends a technical error report to Sentry, a tool that helps developers find and fix bugs. A report describes what went wrong: the type of error, the part of the app where it happened, and your device model and operating system version. It does not include your transactions, your balances, or anything you typed into the app. This crash data is processed on servers located in the European Union.
+**Crash reports.** If the app crashes or freezes, it sends a technical report to Sentry, a tool that helps developers find and fix bugs. The report contains:
+
+- what went wrong: the type of error and the place in the code where it happened;
+- technical details about your device and the app: model, operating system and version, app version, available memory, screen size;
+- your language setting and your time zone, which we keep because several past bugs only appeared in certain languages or on certain dates;
+- a short trail of the screens and buttons you touched just before the crash, recorded as the internal names of parts of the app.
+
+It does not contain your transactions, your balances, your wallet or category names, your notes, or anything else you typed into the app. Nothing is sent while the app is working normally. This data is processed on servers located in the European Union.
 
 **Update checks.** The app checks whether a newer version is available. This request sends only what is needed to answer that question, such as the app version and platform. It sends none of your data.
 
@@ -22,20 +29,28 @@ Valto makes two kinds of network request. Neither one includes your financial da
 
 - No account, no login, and no password stored on any server.
 - No advertising, and no advertising identifiers.
-- No tracking of how you use the app.
+- **No identifier that follows you.** Crash reports carry no user id, no device id and no installation id. Two reports from the same phone cannot be linked together, and a report cannot be traced back to you.
+- **No location.** Your position is never collected, and the servers that receive crash reports are configured not to store the IP address they arrive from.
+- No day to day tracking of how you use the app. The record of which buttons you touched exists only inside a crash report, to show what led to the failure. It is never collected or sent while the app is working.
 - No selling or sharing of your information. Your financial data never reaches us, so there is nothing to sell or share.
 
 ## Biometric unlock
 
 If you turn on the app lock, Valto uses your phone's fingerprint or face unlock to open the app. That check is handled entirely by your device's operating system. Valto never receives or stores your fingerprint or face data.
 
+## Notifications
+
+If you turn on the daily reminder, Valto schedules a notification on your phone, at a set time each day. It is created and delivered entirely by your device. No notification is sent from a server, and nothing about your reminders leaves your phone.
+
 ## Deleting your data
 
 Because your data lives on your phone, you control it directly. You can delete individual entries, reset all financial data from the app's settings, or uninstall the app to remove everything at once. Since none of it is stored elsewhere, deleting it on your device deletes it for good.
 
+Crash reports are the one exception, and they contain nothing that identifies you or your finances. If you would still prefer a report removed, contact us at the address below and say roughly when the crash happened.
+
 ## Children
 
-Valto is not aimed at children and does not knowingly collect information from them. Because the app collects no personal data in the first place, this does not arise in normal use.
+Valto is not aimed at children and does not knowingly collect information from them. Because the app collects no personal information at all, and crash reports carry no identifier, this does not arise in normal use.
 
 ## Changes to this policy
 
