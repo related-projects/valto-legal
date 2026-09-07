@@ -12,7 +12,7 @@ If you uninstall the app or reset its data, that data is gone. No copy is kept a
 
 ## What the app sends over the internet, and why
 
-Valto makes two kinds of network request. Neither one includes your financial data.
+Valto makes network requests in three cases. None of them includes your financial data.
 
 **Crash reports.** If the app crashes or freezes, it sends a technical report to Sentry, a tool that helps developers find and fix bugs. The report contains:
 
